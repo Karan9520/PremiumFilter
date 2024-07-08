@@ -1,4 +1,4 @@
-python-3.10
+python-3.10.0
 asyncio
 coroutine
 Flask==2.2.2
