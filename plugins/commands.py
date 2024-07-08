@@ -49,7 +49,7 @@ async def start(client, message):
 
             InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 💥', url='https://t.me/Movies4USupport'),
 
-            InlineKeyboardButton('🔎 Mᴏᴠɪᴇ Gʀᴏᴜᴘ 🔍', url='https://t.me/Movies4UWorldOfficiall')
+            InlineKeyboardButton("🔎 Sᴇᴀʀᴄʜ 🔎", switch_inline_query_current_chat=''),
 
             ],[
 
@@ -105,7 +105,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 💥', url='https://t.me/Movies4USupport'),
-            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/Movies4UWorldOfficiall')
+            InlineKeyboardButton("🔎 Sᴇᴀʀᴄʜ 🔎", switch_inline_query_current_chat=''),
             ],[
             InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 😊', callback_data='sources')
             ],[
